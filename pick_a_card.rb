@@ -1,5 +1,6 @@
 # encoding: utf-8
 values = %w[2 3 4 5 6 7 8 9 10 J Q K A]
-suits = %w[Diamonds Hearts Clubs Spades] #Буби, Черви, Крести, Пики
+# Создадим массив с набором мастей, вместо названия масти — иконка-символ
+suits = %w[♦, ♠, ♥, ♣]
 
-puts "#{values.sample} of #{suits.sample}"
+puts "#{values.sample} #{suits.sample}"
